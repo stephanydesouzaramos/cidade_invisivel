@@ -16,22 +16,35 @@ body{
     flex-direction: column;
 }
 header{
-    height: 70px;
+    
     background-color:#000000AA;
+    height: 70px;
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding: 10%;
-    padding: 0 10%;
-    padding: 1% 2% 5% 1%;
-}
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    padding: 0 10vw;
+   
 
-.logo img {
-    height: 50px;
 }
-nav ul{
+.logo img {
+    width: 120px;
+}
+.links ul{
    display:flex;
    gap: 20px;
+   color: white;
+   list-style-type: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+.links a:hover{
+    color: red;
 }
 nav a {
     color:white
