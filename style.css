@@ -1,109 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: boder-box; 
+*
+{
+margin:0;
+padding:0;
+box-sizing: 0;
 }
- 
-body{
+body
+{
     width: 100vw;
-    height:100vh;
-    background-image: url("img/cidade-invisivel.jpg");
-    background-color:#00000055;
+    height: 100vh;
+    background-color: #00000066;
     background-blend-mode: darken;
+    background-image: url("Img/cidade-invisivel.jpg");
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
-    display: flex;
     flex-direction: column;
-    color: white;
     font-family: 'Karla', sans-serif;
+    color: white;
 }
-header{
-    
-    background-color:#000000AA;
-    height: 70px;
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 0 10vw;
-    
-   
 
+header
+{
+    height: 70px;
+    background-color: #000000AA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
-.logo img {
-    width: 120px;
-}
-.links ul{
-   display:flex;
-   gap: 20px;
-   color: white;
-   list-style-type: none;
-}
-.links a{
+.links a
+{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    user-select: all 1s;
-    transition: all 2s;
+    transition: all 1s;
+    user-select: none;
 }
-.links a:hover{
+
+.links a:hover
+{
     color: red;
 }
-main{
-    padding: 25vh 10vw ;
-     flex-grow:1;
+
+.links ul
+{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
 }
- main h2 {
-   font-size: 30px;
+main
+{
+    flex-grow: 1;
+    padding: 13vw 10vw;
 }
-main h1 {
+
+main h3
+{
+    font-size: 30px;
+}
+main h1
+{
     font-size: 70px;
 }
-main p {
+main p
+{
     font-size: 25px;
     font-weight: 200;
     max-width: 800px;
 }
-main a {
+main a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
     width: 200px;
     height: 50px;
     background-color: goldenrod;
     margin-top: 30px;
-    border-radius: 20px;
-    transition: all .5s;
-
-    
+    border-radius: 2px;
+    transition: all 500ms;
+    user-select: none;
 }
-main a :hover {
-    border:solid 1px gold;
+main a:hover
+{
+    border: solid 1px goldenrod;
     background-color: black;
 }
-
-footer{
-    text-align:center ;
-    height:40px;
+footer
+{
+   text-align: center;
+    height: 40px;
 }
-.butterfly {
+.borboleta
+{
     position: absolute;
     width: 60px;
     top: 90vh;
     left: 90vw;
     filter: brightness(10%);
-    animation: voar 15s linear infinite;
-} 
-
-@keyframes voar{
-    0%{
-        transform:translate(0,0);
+    animation: voar 20s linear infinite;
+}
+@keyframes voar 
+{
+    0%
+    {
+        transform: translate(0,0);
     }
-    100% {
-        transform: translate(-90vw ,-90vh);
+    100%
+    {
+        transform: translate(-90vw, -90vh);
     }
 }
-  
