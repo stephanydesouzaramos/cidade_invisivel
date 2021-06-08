@@ -8,7 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url("img/cidadeinsivisnd_widexl.jpg");
+    background-image: url("img/Cuca.jpg");
     background-color: #00000055; /* Hexadecimal para trabalhar com a opacidade */
     background-blend-mode: darken; /* Mistura a cor do fundo (no caso preto) com a imagem, escurecendo-a */
     background-size: cover; /* Amplia a imagem  o máximo possível sem distorcê-la  */
@@ -114,3 +114,4 @@ footer {
     width: 100%;
     text-align: center;
 }
+

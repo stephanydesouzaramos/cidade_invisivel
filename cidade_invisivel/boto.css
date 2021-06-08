@@ -8,7 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url("img/cidadeinsivisnd_widexl.jpg");
+    background-image: url("img/boto.jpg");
     background-color: #00000055; /* Hexadecimal para trabalhar com a opacidade */
     background-blend-mode: darken; /* Mistura a cor do fundo (no caso preto) com a imagem, escurecendo-a */
     background-size: cover; /* Amplia a imagem  o máximo possível sem distorcê-la  */
@@ -66,7 +66,7 @@ main h1 { /* Título com letra vazada */
 }
 
 .paragrafo {
-    display: flex;
+     display: flex;
 }
 
 .paragrafo h3 {
